@@ -1,0 +1,27 @@
+{
+  "name": "amazingtheme",
+  "version": "1.0.0",
+  "description": "amazing theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "node-sass ./src/scss/style.scss ./style.css && npm run build"
+  },
+  "keywords": [],
+  "author": "Enis",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@wordpress/scripts": "*",
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "sass": "^1.61.0"
+  }
+}

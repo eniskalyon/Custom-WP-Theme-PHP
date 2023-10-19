@@ -1,0 +1,18 @@
+@import "components/body";
+@import "components/mixins";
+@import "components/containers";
+@import "components/links";
+
+@import "components/buttons";
+
+.reveal-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .reveal-section.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

@@ -1,0 +1,62 @@
+.button-cv {
+    background:    #15d798;
+    border-radius: 1000px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 27px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    
+    transition: 500ms;
+}
+.button-cv:hover {
+    color: #15d798;
+    background: #ffffff;
+}
+
+.button-cv-mobile {
+    visibility: hidden;
+    transition: 500ms;
+}
+
+@media (max-width: 500px) {
+    .button-cv-mobile {
+        visibility: visible;
+        position: fixed;
+        top: 18rem;
+        right: 30rem;
+        rotate: 270deg;
+    }
+}
+
+.bar-item {
+    transition: 500ms;
+}
+.bar-item:hover {
+    color: #15d798;
+    background: #ffffff;
+    margin: 2rem;
+}
+
+.bar-item-vertical {
+    transition: 500ms;
+    
+}
+
+.bar-item-vertical:hover {
+    color: #15d798;
+    background: #ffffff;
+    margin: 1rem 0;
+}
+
+iframe {
+    position: fixed;
+    top: 16rem;
+    right: 35rem;
+    @media (max-width: 770px) {
+        top: 16rem;
+        left: -8rem;
+    }
+   
+}
+
